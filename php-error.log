@@ -1,0 +1,12 @@
+[01-Jun-2021 06:01:38 Europe/Berlin] CONTROLLER::modificar -> Codigo del producto: 1
+[01-Jun-2021 06:01:47 Europe/Berlin] CONTROLLER::Producto->update "Producto actualizado"
+[01-Jun-2021 06:14:54 Europe/Berlin] CONTROLLER::modificar -> Codigo del producto: 1
+[01-Jun-2021 06:15:14 Europe/Berlin] CONTROLLER::Producto->update "Producto actualizado"
+[01-Jun-2021 06:26:59 Europe/Berlin] CONTROLLER::modificar -> Codigo del producto: 1
+[01-Jun-2021 06:35:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in C:\xampp\htdocs\GoFooD\models\ordersModelo.php:65
+Stack trace:
+#0 C:\xampp\htdocs\GoFooD\controllers\orders.php(181): OrdersModelo->view_orders()
+#1 C:\xampp\htdocs\GoFooD\core\app.php(22): Orders->factura()
+#2 C:\xampp\htdocs\GoFooD\index.php(23): App->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\GoFooD\models\ordersModelo.php on line 65

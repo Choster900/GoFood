@@ -1,0 +1,103 @@
+body {
+    font-family: 'open sans';
+    overflow-x: hidden;
+    background-color: #68aaaa;
+    color: #555; }
+  
+  img { 
+    max-width: 100%; }
+  
+  .login {
+    max-width: 400px;
+    width: auto;
+    margin: 50px auto;
+    background-color: #eee;
+    font-size: 1.3rem;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); }
+    .login-1--header {
+      background-color: #ffc414; }
+    .login-1 .arrow-down {
+      border-top: 20px solid #ffc414; }
+    .login-1 .input-group-addon {
+      background-color: #ffc414; }
+    .login-1 .btn-default {
+      background-color: #ffc414; }
+    .login-1 .login--footer__text:first-of-type {
+      border-top: 1px dotted #444; }
+    .login--header {
+      padding: .7em 0;
+      color: #fff;
+      position: relative; }
+      .login--header h3 {
+        text-transform: UPPERCASE; }
+    .login--form {
+      padding: 40px 20px; }
+      .login--form__input-area {
+        width: 100%; }
+    .login--footer {
+      padding: 0 20px 20px 20px; }
+      .login--footer__text:first-of-type {
+        padding-top: 10px; }
+    .login .btn {
+      border: none;
+      border-radius: 0;
+      display: block;
+      width: 100%;
+      text-transform: UPPERCASE;
+      color: #fff; }
+  
+  /***********utility************/
+  .arrow-down {
+    z-index: 999;
+    border: 20px solid transparent;
+    position: absolute;
+    margin: 0 auto;
+    top: 100%;
+    display: block;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }
+  
+  .form-control {
+    height: auto;
+    padding: .7em;
+    background-color: #ccc; }
+  
+  input.form-control, span.input-group-addon {
+    border-radius: 0;
+    border: none; }
+  
+  span.input-group-addon {
+    color: #fff;
+    font-size: 1.2em;
+    width: 14%; }
+  
+  span.icon {
+    display: inline-block !important; }
+    span.icon-small {
+      font-size: 1.8em;
+      line-height: 1.9em;
+      width: 2em;
+      text-align: center; }
+    span.icon-medium {
+      font-size: 2.5em;
+      line-height: 1.9em;
+      width: 2em;
+      text-align: center; }
+  
+  .login--header .icon {
+    border: 2px solid #fff;
+    border-radius: 50%; }
+  
+  .login--form__input-area,
+  .login--footer__text{
+    padding-bottom: 20px;
+    text-align: center;}
+    
+  
+  .btn-default {
+    padding: 1em; }
+  
+  
+  
